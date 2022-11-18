@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12.6rem;
+    line-height: 14.8rem;
+
+    background: #FFFFFF;
+
+    display: grid;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+}
+
+.hide {
+    display: none;
+}
+
+.clock {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.controls {
+    display: flex;
+    gap: 4rem;
+}
+
+.sounds {
+    display: grid;
+    gap: 3.2rem;
+    grid-template-areas: "A B"
+    "C D";
+}
+
+.sounds #forest,
+.sounds #selectforest {
+    grid-area: "A";
+}
+
+.sounds #rain,
+.sounds #selectRain {
+    grid-area: "B";
+}
+
+.sounds #coffeshop,
+.sounds #selectCoffeshop {
+    grid-area: "C";
+}
+
+.sounds #fire,
+.sounds #selectFire {
+    grid-area: "D";
+}
+
+
+button {
+    border: none;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+button img {
+    width: 5rem;
+    height: 5rem;
+}
