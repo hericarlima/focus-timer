@@ -6,6 +6,11 @@ export default function Sounds () {
     const coffeshop = new Audio("../sounds/coffeshop.wav")
     const fire = new Audio("../sounds/fire.wav")
 
+    forest.loop = true
+    rain.loop = true
+    coffeshop.loop = true
+    fire.loop = true
+
     return {
         forest,
         rain,

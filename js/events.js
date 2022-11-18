@@ -45,9 +45,8 @@ export default function Events ({
         return
         }
     
-        //se for
-        timer.updateDisplay(newMinutes, 0) //atualiza o display
-        timer.updateMinutes(newMinutes) //atualiza os minutos
+        timer.updateDisplay(newMinutes, 0) 
+        timer.updateMinutes(newMinutes) 
     })
     
     buttonIncrease.addEventListener('click', function() {
@@ -55,12 +54,12 @@ export default function Events ({
     })
 
     buttonDecrease.addEventListener('click', function() {
+        let minutes = minutesDisplay.textContent
         
+        if(minutes <= 0 || minutes <= 5){
+            return
+        } 
         minutesDisplay.textContent = String(Number(minutesDisplay.textContent) - 5).padStart(2, "0")
-        let decreaseMinutes = minutesDisplay.textContent
-        
-        //resolver o valor negativo!!!!!!!
-        
     })
 
     soundForest.addEventListener('click', function(){
