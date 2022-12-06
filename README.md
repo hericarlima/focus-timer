@@ -1,13 +1,15 @@
 # Focus Timer
-Cronômetro desenvolvido com base no conceito da técnica de estudo Pomodoro, com opções de diferentes sons ambientes em cada card, e funcionalidades nos botões de controle do timer.
+Cronômetro desenvolvido com base na técnica de estudo Pomodoro, com opções de diferentes sons ambientes em cada card, e funcionalidades nos botões de controle do timer.
 
-![cronometro com botões de controle e cards de diferentes sons](https://user-images.githubusercontent.com/105971989/205718833-3531eae9-4e8c-433a-a7f4-62cc6b3bbb23.png)
+![focustimer-img](https://user-images.githubusercontent.com/105971989/205838374-451c0b30-d0f4-4dae-a2c8-f49ca19a825d.png)
+
+## Funcionalidades
+
+![focustimer-gif](https://user-images.githubusercontent.com/105971989/205838416-9e0904c9-80dc-4958-9a2a-77eef5bc2f15.gif)
 
 ## Tecnologias 
 - HTML
 - CSS
 - JavaScript
 
-## Demonstração da aplicação
 
-https://user-images.githubusercontent.com/105971989/205716407-c2be43fb-88b6-4d76-84de-89d84478a658.mp4
