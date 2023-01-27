@@ -7,7 +7,6 @@ export default function Timer({
     let timerTimeOut 
     let minutes = Number(minutesDisplay.textContent) 
   
-    //atualiza display
     function updateDisplay(newMinutes, seconds) {
       newMinutes = newMinutes === undefined ? minutes : newMinutes
       seconds = seconds === undefined ? 0 : seconds
@@ -16,7 +15,7 @@ export default function Timer({
       secondsDisplay.textContent = String(seconds).padStart(2, "0")
     }
   
-    //reseta o display (atualiza + para contador)
+    //reset display (update + stop count)
     function reset() {
       updateDisplay(minutes, 0)
       clearTimeout(timerTimeOut)
@@ -49,12 +48,11 @@ export default function Timer({
       }, 1000)
     }
   
-    //atualiza os minutos
     function updateMinutes(newMinutes) {
       minutes = newMinutes
     }
   
-    //parar o setTimeout
+    //stop setTimeout
     function hold() {
       clearTimeout(timerTimeOut)
     }

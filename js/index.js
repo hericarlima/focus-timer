@@ -22,7 +22,7 @@ import {
 } from "./elements.js"
 
 
-//injeção de dependências
+//dependency injection
 const controls = Controls({
     buttonPlay,
     buttonPause,
